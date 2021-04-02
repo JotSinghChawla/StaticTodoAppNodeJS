@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    background-color: lightgoldenrodyellow;
+}
+.container {
+    margin: 40px;
+    border-radius: 20px;
+    background: lightgrey;
+}
+.task {
+    padding: 30px;
+}
+.input {
+    text-align: center;
+}
+.input input{
+    background-color: lightblue;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin-top: 13px;
+    width: 80%;
+}
+#list {
+    list-style-type: none;
+}
+#list li{
+    font-size: 25px;
+}
+li input {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.checked {
+    text-decoration: line-through;
+}
+#close {
+    color: red;
+}
+#end {
+    display: flex;
+    float: right;
+}
+#enter {
+    height: 70px;
+    font-size: 30px;
+    border: 0px;
+}
+

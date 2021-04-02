@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Backend ST-1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="heading"> Todo List App ( NodeJS ) </div>
+        <div class="container">
+            <div class="input">
+                <form onsubmit="addTask()">
+                    <input id='enter' type="text" placeholder="Add you task here..."  />
+                </form>
+            </div>
+            <div class="task">
+                <h3>
+                    Add task to your list by typing to the right side and press enter. You can then view your pending task Bellow:
+                </h3>
+                <ul id='list' >
+            
+                </ul>
+            </div>
+        </div>
+
+
+        <script src='./index.js'></script>
+    </body>
+</html>
